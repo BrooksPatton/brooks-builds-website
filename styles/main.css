@@ -1,40 +1,27 @@
 /* Global changes */
-h1 {
-  font-size: 2em;
-  margin-bottom: 0;
+
+
+/* Positioning */
+.container {
+  margin: 3vw;
+  max-width: 95vw;
+  outline: 1px solid black;
+  display: inline-flex;
 }
 
-/* main */
-.centered {
-  text-align: center;
+.left {
+  outline: 1px solid red;
+  width: 15vw;
+  min-width: 100px;
 }
 
-/* Branding and Nav side of the screen (left) */
-
-.left-side {
-  border-right: : 1px solid #000;
+main {
+  outline: 1px solid skyblue;
+  width: 57vw;
 }
 
-.left-side > header {
-  border-bottom: 1px solid #000;
-}
-
-.left-side > header > p {
-  margin: 0;
-}
-
-.left-nav > ul {
-  margin-left: 25px;
-}
-
-.left-nav p, .left-nav li {
-  cursor: pointer;
-}
-
-.right-side {
-  border: 1px solid green;
-}
-
-.middle {
-  border: 1px solid blue;
+.right {
+  outline: 1px solid green;
+  width: 25vw;
+  min-width: 200px;
 }
