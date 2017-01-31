@@ -1,7 +1,24 @@
-/* Global changes */
+/* Fonts! */
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans:500i');
 
+/* Global changes */
+h1 {
+  font-family: 'Alegreya Sans', sans-serif;
+}
 
 /* Positioning */
+.logo h1 {
+  position: relative;
+  transform: rotate(-24deg);
+  transform-origin: 36px -20px;
+}
+
+.logo span {
+  position: absolute;
+  top: 21px;
+  left: 25px
+}
+
 .container {
   margin: 3vw;
   max-width: 95vw;
@@ -12,7 +29,7 @@
 .left {
   outline: 1px solid red;
   width: 15vw;
-  min-width: 100px;
+  min-width: 200px;
 }
 
 main {
