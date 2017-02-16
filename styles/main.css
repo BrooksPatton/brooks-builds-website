@@ -2,12 +2,12 @@
 @import url('https://fonts.googleapis.com/css?family=Alegreya+Sans:500i');
 
 /* Global changes */
-h1 {
+h1, h2 {
   font-family: 'Alegreya Sans', sans-serif;
 }
 
 /* Positioning */
-.logo p {
+.logo p, nav li {
   display: flex;
 }
 
@@ -25,14 +25,18 @@ h1 {
 .container {
   margin: 3vw;
   max-width: 95vw;
-  outline: 1px solid black;
   display: inline-flex;
 }
 
 .left {
-  outline: 1px solid red;
   width: 15vw;
   min-width: 200px;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
 }
 
 main {
@@ -53,5 +57,19 @@ main {
 /* Borders */
 .bottom-border {
   border-bottom: 2px solid black;
+  border-radius: 5px;
+}
+
+/* styling */
+nav li {
+  list-style: none;
+  margin-bottom: 3px;
+  cursor: pointer;
+}
+
+/* buttons */
+.btn {
+  background-color: gray;
+  padding: 0.5em 1em;
   border-radius: 5px;
 }
