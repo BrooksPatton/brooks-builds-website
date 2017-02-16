@@ -67,9 +67,21 @@ nav li {
   cursor: pointer;
 }
 
+.btn > a {
+  text-decoration: none;
+}
+
+.btn > a:visited {
+  color: black;
+}
+
 /* buttons */
 .btn {
   background-color: gray;
   padding: 0.5em 1em;
   border-radius: 5px;
+}
+
+.btn:hover, .btn > a:hover {
+  color: #C9CACA;
 }
