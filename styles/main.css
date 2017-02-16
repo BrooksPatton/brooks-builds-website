@@ -7,8 +7,11 @@ h1 {
 }
 
 /* Positioning */
+.logo p {
+  display: flex;
+}
+
 .logo h1 {
-  position: relative;
   transform: rotate(-24deg);
   transform-origin: 36px -20px;
 }
@@ -41,4 +44,14 @@ main {
   outline: 1px solid green;
   width: 25vw;
   min-width: 200px;
+}
+
+.center-text {
+  justify-content: center;
+}
+
+/* Borders */
+.bottom-border {
+  border-bottom: 2px solid black;
+  border-radius: 5px;
 }
