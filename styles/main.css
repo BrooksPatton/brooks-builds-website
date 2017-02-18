@@ -60,7 +60,7 @@ main {
   justify-content: center;
 }
 
-.social i {
+.social a {
   justify-content: space-around;
   width: 15%;
   text-align: center;
@@ -76,14 +76,19 @@ main {
 nav li {
   list-style: none;
   margin-bottom: 3px;
+}
+
+.pointer {  
   cursor: pointer;
 }
 
-.btn > a {
+.btn > a,
+.social a {
   text-decoration: none;
 }
 
-.btn > a:visited {
+.btn > a:visited,
+.social a:visited {
   color: black;
 }
 
