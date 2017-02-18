@@ -6,6 +6,10 @@ h1, h2 {
   font-family: 'Alegreya Sans', sans-serif;
 }
 
+body {
+  min-width: 1210px
+}
+
 /* Positioning */
 .logo p,
 nav li,
@@ -25,13 +29,13 @@ nav li,
 }
 
 .container {
-  margin: 3vw;
-  max-width: 95vw;
+  margin: 97%;
+  max-width: 95%;
   display: inline-flex;
 }
 
 .left {
-  width: 15vw;
+  width: 15%;
   min-width: 200px;
 }
 
@@ -43,12 +47,12 @@ nav ul {
 
 main {
   outline: 1px solid skyblue;
-  width: 57vw;
+  width: 57%;
 }
 
 .right {
   outline: 1px solid green;
-  width: 25vw;
+  width: 25%;
   min-width: 200px;
 }
 
@@ -66,6 +70,11 @@ main {
   text-align: center;
 }
 
+main .stream {
+  display: flex;
+  justify-content: center;
+}
+
 /* Borders */
 .bottom-border {
   border-bottom: 2px solid black;
@@ -78,7 +87,7 @@ nav li {
   margin-bottom: 3px;
 }
 
-.pointer {  
+.pointer {
   cursor: pointer;
 }
 
