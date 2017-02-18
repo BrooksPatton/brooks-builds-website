@@ -7,7 +7,9 @@ h1, h2 {
 }
 
 /* Positioning */
-.logo p, nav li {
+.logo p,
+nav li,
+.social > div {
   display: flex;
 }
 
@@ -52,6 +54,16 @@ main {
 
 .center-text {
   justify-content: center;
+}
+
+.social > div {
+  justify-content: center;
+}
+
+.social i {
+  justify-content: space-around;
+  width: 15%;
+  text-align: center;
 }
 
 /* Borders */
