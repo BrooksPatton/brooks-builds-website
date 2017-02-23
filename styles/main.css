@@ -18,6 +18,11 @@ a:visited {
   color: black;
 }
 
+ul li {
+  list-style: none;
+  margin-bottom: 1.2em;
+}
+
 /* Positioning */
 .logo p,
 nav li,
