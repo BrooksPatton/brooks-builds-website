@@ -75,6 +75,28 @@ main .stream {
   justify-content: center;
 }
 
+section.archived > div {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 1em;
+}
+
+.archived .thumbnail, .archived .meta-data {
+  display: flex;
+  flex-direction: column;
+  margin-left: 0.2em;
+}
+
+section.archived .meta-data > p {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+section.archived .meta-data > h3 {
+  margin: 0 0 0.3em 0;
+}
+
 /* Borders */
 .bottom-border {
   border-bottom: 2px solid black;
