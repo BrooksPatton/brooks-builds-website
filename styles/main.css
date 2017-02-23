@@ -10,6 +10,14 @@ body {
   min-width: 1210px
 }
 
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+}
+
 /* Positioning */
 .logo p,
 nav li,
@@ -113,6 +121,10 @@ section.email-list input, section.email-list button {
   margin-top: 0.3em;
 }
 
+section.follow-me {
+  padding: 2em 0;
+}
+
 /* Borders */
 .bottom-border {
   border-bottom: 2px solid black;
@@ -121,22 +133,11 @@ section.email-list input, section.email-list button {
 
 /* styling */
 nav li {
-  list-style: none;
   margin-bottom: 3px;
 }
 
 .pointer {
   cursor: pointer;
-}
-
-.btn > a,
-.social a {
-  text-decoration: none;
-}
-
-.btn > a:visited,
-.social a:visited {
-  color: black;
 }
 
 /* buttons */
