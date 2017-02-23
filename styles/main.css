@@ -46,7 +46,6 @@ nav ul {
 }
 
 main {
-  outline: 1px solid skyblue;
   width: 57%;
 }
 
@@ -97,6 +96,23 @@ section.archived .meta-data > h3 {
   margin: 0 0 0.3em 0;
 }
 
+section.email-list {
+  padding-bottom: 1em;
+  margin-top: 1em;
+}
+
+section.email-list label {
+  text-align: center;
+}
+
+section.email-list input {
+  width: 95%;
+}
+
+section.email-list input, section.email-list button {
+  margin-top: 0.3em;
+}
+
 /* Borders */
 .bottom-border {
   border-bottom: 2px solid black;
@@ -132,4 +148,8 @@ nav li {
 
 .btn:hover, .btn > a:hover {
   color: #C9CACA;
+}
+
+.btn-extend {
+  width: 97%;
 }
