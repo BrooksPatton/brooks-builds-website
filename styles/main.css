@@ -145,6 +145,12 @@ nav li {
   cursor: pointer;
 }
 
+body {
+  background-color: white;
+  background-image: url("../images/light_grey.png");
+}
+
+
 /* buttons */
 .btn {
   background-color: gray;
@@ -158,4 +164,41 @@ nav li {
 
 .btn-extend {
   width: 97%;
+}
+
+.brown {
+  background-color: #c76e2e;
+}
+
+.fade-right-brown {
+background-image: linear-gradient(to right, white, #c76e2e);
+}
+
+.green {
+  background-color: #2ec74a;
+}
+
+.blue {
+  background-color: #2e78c7;
+}
+
+.light-green {
+  background-color: #2ec7aa;
+}
+
+.light-blue {
+  background-color: #2e78e7;
+}
+
+.gray {
+  background-color: #c4c4c4;
+}
+
+.dark {
+  background-color: #383838;
+  color: #c4c4c4;
+}
+
+.fade-right {
+  background-color: #89e;
 }
