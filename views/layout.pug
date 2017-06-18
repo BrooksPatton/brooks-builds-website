@@ -22,7 +22,7 @@ html
         .collapse.navbar-collapse#top-navbar-collapse
           ul.nav.navbar-nav.navbar-left
             li
-              a(href='https://www.twitch.tv/brookzerker') Brooks is #[span.stream-status offline]
+              a(href='https://www.twitch.tv/brookzerker') Brooks is #[span#stream-status checking]
 
     .jumbotron
       .container
@@ -32,4 +32,10 @@ html
 
     script(src="https://code.jquery.com/jquery-3.2.1.min.js", integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=", crossorigin="anonymous")
     script(src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js", integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa", crossorigin="anonymous")
+
+    script.
+      var channelId = '#{channelId}'
+      var clientId = '#{clientId}'
+
+    script(src='/javascripts/main.js')
     block scripts

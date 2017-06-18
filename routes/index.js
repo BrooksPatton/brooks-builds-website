@@ -5,7 +5,10 @@ var router = express.Router();
 router.get('/', function(req, res, next) {
   const isStreaming = false;
 
-  res.render('index', { streaming: isStreaming });
+  res.render('index', { 
+    clientId: '6i9ekfgmxjr7yk014fpfarxhmtqplj',
+    channelId: '75574155'
+  });
 });
 
 module.exports = router;
