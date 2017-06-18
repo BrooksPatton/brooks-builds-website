@@ -1,5 +1,42 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+  .container
+    .row
+      .col-md-6
+        h2.text-center Hi, I'm Brooks Patton
+
+        p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tortor velit, rhoncus eget massa a, bibendum vehicula neque. Sed sed vestibulum ex, et interdum justo. In vel porttitor ante. Suspendisse vitae fringilla tellus, et interdum est. Donec quis hendrerit enim, quis tincidunt sapien. In ultricies congue justo, in sollicitudin enim auctor sit amet. Maecenas odio sem, auctor nec semper ut, tristique et ex. Mauris sit amet varius velit. Duis pretium mollis dolor sodales interdum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam varius rhoncus dapibus. Integer lobortis felis leo, eget dapibus quam feugiat at.
+
+        p Curabitur tellus magna, dignissim id eros a, euismod varius justo. In condimentum ligula purus, dictum laoreet est placerat vel. Duis nec erat ligula. Etiam a accumsan ligula, in ullamcorper quam. Duis consequat in nibh sed accumsan. Morbi efficitur, nisi vel scelerisque bibendum, lectus justo ultrices ligula, a viverra tellus elit a lorem. Praesent ac egestas enim. Sed sodales enim ex, at posuere nisl facilisis eu. Fusce accumsan pellentesque volutpat. Donec sit amet ex nunc. Ut suscipit neque id urna cursus, eget lobortis augue hendrerit. Fusce pulvinar, eros in dignissim luctus, ante risus auctor justo, in volutpat ligula tortor id nisi. Sed bibendum nulla nec lectus commodo, eget feugiat nulla tincidunt. Nunc nec aliquam massa. Donec feugiat suscipit dui ut sollicitudin.
+
+        p Donec sit amet porta ex, non rutrum est. Suspendisse eget erat semper, hendrerit urna eget, efficitur enim. Nam ut purus porta, lobortis augue id, pretium neque. Vestibulum eleifend mollis nisl, et tincidunt erat consequat id. Fusce rhoncus, justo pellentesque ultrices laoreet, dui mauris vulputate elit, eget venenatis neque massa ac nisi. Vivamus a turpis tortor. Duis sollicitudin massa mi. Integer est nisl, condimentum vitae justo ac, volutpat eleifend nisi. Suspendisse suscipit, mauris a finibus tincidunt, diam risus congue libero, quis fringilla risus sapien nec urna. Vivamus non mi sit amet erat accumsan volutpat. In commodo lectus velit, eget aliquet turpis rhoncus egestas. Aenean ac lorem nec elit cursus fringilla at nec risus. Fusce et justo ultrices, rhoncus orci sit amet, mollis urna. Donec quis diam ut augue tempor malesuada at non lectus.
+      .col-md-6
+        h2.text-center Check out my latest videos!
+        .video
+          iframe.center-block(src="https://player.twitch.tv/?video=v151917523&autoplay=false", frameborder="0", allowfullscreen="true", scrolling="no", height="200")
+            a(href="https://www.twitch.tv/brookzerker?tt_medium=live_embed&tt_content=text_link", style="padding:2px 0px 4px; display:block; width:345px; font-weight:normal; font-size:10px; text-decoration:underline;")
+        .video
+          iframe.center-block(src="https://player.twitch.tv/?video=v151917523&autoplay=false", frameborder="0", allowfullscreen="true", scrolling="no", height="200")
+            a(href="https://www.twitch.tv/brookzerker?tt_medium=live_embed&tt_content=text_link", style="padding:2px 0px 4px; display:block; width:345px; font-weight:normal; font-size:10px; text-decoration:underline;")
+        .video
+          iframe.center-block(src="https://player.twitch.tv/?video=v151917523&autoplay=false", frameborder="0", allowfullscreen="true", scrolling="no", height="200")
+            a(href="https://www.twitch.tv/brookzerker?tt_medium=live_embed&tt_content=text_link", style="padding:2px 0px 4px; display:block; width:345px; font-weight:normal; font-size:10px; text-decoration:underline;")
+
+    .row
+      .col-md-12
+        h2.text-center Schedule
+    .row
+      .col-md-4
+        h3.text-center Monday
+      .col-md-4
+        h3.text-center Wednesday
+      .col-md-4
+        h3.text-center Friday
+    .row
+      .col-md-4
+        p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tortor velit, rhoncus eget massa a, bibendum vehicula neque. Sed sed vestibulum ex, et interdum justo. In vel porttitor ante. Suspendisse vitae fringilla tellus, et interdum est. Donec quis hendrerit enim, quis tincidunt sapien. In ultricies congue justo, in sollicitudin enim auctor sit amet. Maecenas odio sem, auctor nec semper ut, tristique et ex. Mauris sit amet varius velit. Duis pretium mollis dolor sodales interdum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam varius rhoncus dapibus. Integer lobortis felis leo, eget dapibus quam feugiat at.
+      .col-md-4
+        p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tortor velit, rhoncus eget massa a, bibendum vehicula neque. Sed sed vestibulum ex, et interdum justo. In vel porttitor ante. Suspendisse vitae fringilla tellus, et interdum est. Donec quis hendrerit enim, quis tincidunt sapien. In ultricies congue justo, in sollicitudin enim auctor sit amet. Maecenas odio sem, auctor nec semper ut, tristique et ex. Mauris sit amet varius velit. Duis pretium mollis dolor sodales interdum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam varius rhoncus dapibus. Integer lobortis felis leo, eget dapibus quam feugiat at.
+      .col-md-4
+        p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tortor velit, rhoncus eget massa a, bibendum vehicula neque. Sed sed vestibulum ex, et interdum justo. In vel porttitor ante. Suspendisse vitae fringilla tellus, et interdum est. Donec quis hendrerit enim, quis tincidunt sapien. In ultricies congue justo, in sollicitudin enim auctor sit amet. Maecenas odio sem, auctor nec semper ut, tristique et ex. Mauris sit amet varius velit. Duis pretium mollis dolor sodales interdum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam varius rhoncus dapibus. Integer lobortis felis leo, eget dapibus quam feugiat at.
