@@ -1,0 +1,11 @@
+.brand {
+  text-align: center;
+}
+
+.main-title {
+  position: absolute;
+  color: white;
+  text-align: center;
+  width: 100%;
+  line-height: 150px;
+}
