@@ -3,6 +3,7 @@ import Navbar from './navbar/Navbar';
 import './App.css';
 import Brand from './brand/Brand';
 import AboutMe from './about-me/AboutMe';
+import LatestStreams from './latest-streams/LatestStreams';
 
 class App extends Component {
   render() {
@@ -16,6 +17,7 @@ class App extends Component {
               <AboutMe />
             </div>
             <div className="col">
+              <LatestStreams />
             </div>
           </div>
         </div>
