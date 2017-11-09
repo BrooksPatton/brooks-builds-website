@@ -4,6 +4,7 @@ import './App.css';
 import Brand from './brand/Brand';
 import AboutMe from './about-me/AboutMe';
 import LatestStreams from './latest-streams/LatestStreams';
+import Projects from './projects/Projects';
 
 class App extends Component {
   render() {
@@ -14,7 +15,16 @@ class App extends Component {
         <div className="container">
           <div className="row">
             <div className="col">
-              <AboutMe />
+              <div className="row">
+                <div className="col">
+                  <AboutMe />
+                </div>
+              </div>
+              <div className="row">
+                <div className="col">
+                  <Projects />
+                </div>
+              </div>
             </div>
             <div className="col">
               <LatestStreams />

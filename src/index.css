@@ -3,3 +3,7 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+.bg-info {
+  background-color: #9ad3de!important;
+}

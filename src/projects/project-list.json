@@ -1,0 +1,12 @@
+[
+    {
+        "id": 1,
+        "title": "Brooks Builds website",
+        "description": "A website that shows off the projects that Brooks (Brookzerker) makes on Twitch.tv!"
+    },
+    {
+        "id": 2,
+        "title": "Screeps",
+        "description": "A MMORTS game where the only way to play is through programming JavaScript"
+    }
+]
